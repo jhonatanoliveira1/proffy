@@ -14,7 +14,7 @@ function TeacherItem() {
         />
         <div>
           <strong>Diego Fernandes</strong>
-          <strong>Química</strong>
+          <span>Química</span>
         </div>
       </header>
 
