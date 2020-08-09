@@ -23,13 +23,13 @@ function Landing() {
 
       <Text style={styles.title} >
         Seja bem-vindo, {'\n'}
-        <Text style={styles.titleBold} >
+        <Text style={styles.titleBold}>
           O que deseja fazer?
         </Text>
       </Text>
 
       <View style={styles.buttonsContainer}>
-        <RectButton style={[styles.button, styles.buttonPrimary]} >
+        <RectButton style={[styles.button, styles.buttonPrimary]}>
           <Image source={studyIcon} />
           <Text style={styles.buttonText}>Estudar</Text>
         </RectButton>

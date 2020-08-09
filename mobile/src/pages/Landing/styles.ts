@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     color: "#FFF",
     fontSize: 20,
     lineHeight: 30,
-    marginTop: 80,
+    marginTop: 80
   },
 
   titleBold: {
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   buttonsContainer: {
     flexDirection: 'row',
     marginTop: 40,
-    justifyContent: 'space-between',
+    justifyContent: 'space-between'
   },
 
   button: {
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontFamily: 'Archivo_700Bold',
     color: '#fff',
-    fontSize: 20,
+    fontSize: 20
   },
 
   totalConnections: {
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 20,
     maxWidth: 140,
-    marginTop: 40,
+    marginTop: 40
   },
 });
 
