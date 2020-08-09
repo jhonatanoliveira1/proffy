@@ -46,7 +46,7 @@ function Landing() {
           style={[styles.button, styles.buttonSecondary]} 
         >
           <Image source={giveClassesIcon} />
-          <Text style={styles.buttonText}>Dar Aulas</Text>
+          <Text style={styles.buttonText}>Dar aulas</Text>
         </RectButton>
       </View>
 
