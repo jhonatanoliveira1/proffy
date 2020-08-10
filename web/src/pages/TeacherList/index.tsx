@@ -13,7 +13,7 @@ function TeacherList() {
   const [teachers, setTeachers] = useState([]);
 
   const [subject, setSubject] = useState('');
-  const [week_day, setWeek_day] = useState('');
+  const [week_day, setWeekDay] = useState('');
   const [time, setTime] = useState('');
 
   async function searchTeachers(e: FormEvent) {
@@ -45,7 +45,7 @@ function TeacherList() {
               { value: "Ciências", label: "Ciências" },
               { value: "Educação física", label: "Educação física" },
               { value: "Física", label: "Física" },
-              { value: "Geografía", label: "Geografía" },
+              { value: "Geografia", label: "Geografia" },
               { value: "História", label: "História" },
               { value: "Matemática", label: "Matemática" },
               { value: "Português", label: "Português" },
@@ -56,7 +56,7 @@ function TeacherList() {
             name="week_day" 
             label="Dia da semana"
             value={week_day}
-            onChange={(e) => setWeek_day(e.target.value)}
+            onChange={(e) => setWeekDay(e.target.value)}
             options={[
               { value: "0", label: "Domingo" },
               { value: "1", label: "Segunda-feira" },
