@@ -3,6 +3,7 @@ import { View, ScrollView, Text, TextInput } from 'react-native';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-community/async-storage'
+import { useFocusEffect } from '@react-navigation/native';
 
 import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
@@ -29,8 +30,12 @@ function TeacherList() {
         )
         setFavorites(favoritedTeachersIds);
       }
-    })
+    });
   }
+
+  useFocusEffect(() => {
+    loadFavorites()
+  });
 
   function handleToggleFiltersVisible() {
     setIsFiltersVisible(!isFiltersVisible);
